@@ -2,10 +2,10 @@ package ua.devmaksem.network.data.top
 
 import com.google.gson.annotations.SerializedName
 
-data class PreviewPhotos(
+data class PreviewPhotosDto(
     @SerializedName("enabled")
     val isEnabled: Boolean,
 
     @SerializedName("images")
-    val imageList: List<Image>
+    val imageList: List<ImageDto>
 )

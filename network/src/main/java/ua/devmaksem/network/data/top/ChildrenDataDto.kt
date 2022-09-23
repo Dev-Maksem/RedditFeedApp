@@ -2,7 +2,7 @@ package ua.devmaksem.network.data.top
 
 import com.google.gson.annotations.SerializedName
 
-data class ChildrenData(
+data class ChildrenDataDto(
 
     @SerializedName("author")
     val author: String,
@@ -17,7 +17,7 @@ data class ChildrenData(
     val name: String,
 
     @SerializedName("preview")
-    val photoPreviews: PreviewPhotos,
+    val photoPreviews: PreviewPhotosDto,
 
     @SerializedName("thumbnail")
     val thumbnail: String?,

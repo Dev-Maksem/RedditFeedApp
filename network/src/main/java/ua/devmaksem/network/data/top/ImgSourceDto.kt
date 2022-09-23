@@ -2,7 +2,7 @@ package ua.devmaksem.network.data.top
 
 import com.google.gson.annotations.SerializedName
 
-data class ImgSource(
+data class ImgSourceDto(
     @SerializedName("height")
     val imageHeight: Int,
 

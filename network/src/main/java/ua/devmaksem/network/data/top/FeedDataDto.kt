@@ -14,5 +14,5 @@ data class FeedDataDto(
     val after: String?,
 
     @SerializedName("children")
-    val childrenList: List<Children>,
+    val childrenList: List<ChildrenDto>,
 )
